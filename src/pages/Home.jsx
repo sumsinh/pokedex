@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getPokemonList } from "../services/api";
+import { getPokemonList } from "../../public/services/api";
 
 function Home() {
   const [pokemon, setPokemon] = useState([]);
